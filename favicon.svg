@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="6" y1="4" x2="58" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123d70"/>
+      <stop offset="0.58" stop-color="#092344"/>
+      <stop offset="1" stop-color="#171c52"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="18" y1="42" x2="47" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#338cff"/>
+      <stop offset="1" stop-color="#9578ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#background)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" stroke="#72DDFF" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="51" cy="13" r="4.5" fill="#8D78FF" fill-opacity="0.72" filter="url(#glow)"/>
+  <path d="M23 8H41" stroke="#C8F4FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M27.5 9V23.5L15.8 45.2C13.2 50 16.7 55.7 22.1 55.7H41.9C47.3 55.7 50.8 50 48.2 45.2L36.5 23.5V9" stroke="#C8F4FF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.7 44.5C26.8 39.3 34.2 49.5 46.5 43.8L49.7 49.8C51.3 52.8 49.1 56.4 45.7 56.4H18.3C14.9 56.4 12.7 52.8 14.3 49.8L18.7 44.5Z" fill="url(#liquid)"/>
+  <path d="M18.7 44.5C26.8 39.3 34.2 49.5 46.5 43.8" stroke="#A9EDFF" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="23" cy="35" r="2.5" fill="#47DCFF" filter="url(#glow)"/>
+  <circle cx="40.5" cy="31" r="1.9" fill="#9DECFF"/>
+  <circle cx="34.5" cy="40" r="1.4" fill="#47DCFF"/>
+  <path d="M10 28H19M45 19H54M49 36H57" stroke="#8DDEFF" stroke-opacity="0.42" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="9" cy="28" r="1.5" fill="#8DDEFF" fill-opacity="0.72"/>
+  <circle cx="55" cy="19" r="1.5" fill="#8DDEFF" fill-opacity="0.72"/>
+  <circle cx="58" cy="36" r="1.5" fill="#8DDEFF" fill-opacity="0.72"/>
+</svg>

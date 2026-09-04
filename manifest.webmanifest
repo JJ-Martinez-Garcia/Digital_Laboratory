@@ -1,0 +1,17 @@
+{
+  "name": "Laboratorio Digital de José Javier Martínez",
+  "short_name": "Laboratorio Digital",
+  "description": "Aplicaciones para arqueología, investigación histórica, patrimonio cultural y humanidades digitales.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#030817",
+  "theme_color": "#07142a",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
